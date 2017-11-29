@@ -1,2 +1,5 @@
 language: c
 compiler: gcc
+script:
+ - make clean
+ - make test
